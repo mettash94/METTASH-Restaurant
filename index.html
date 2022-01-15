@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Mettash is a resturant based in Greenville South Carolina serving Italian cuisine and featuring a rooftop bar"
+    />
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <title>METTASH - Greenville SC</title>
+  </head>
+  <body>
+    <section class="mainpage">
+      <div class="header">
+        <img class="logo" src="images/logo 1.png" alt="mainlogo" />
+
+        <nav class="navbar">
+          <ul class="navlinks">
+            <li><a href="#menu" class="works"> MENU </a></li>
+            <li><a href="#bar" class="works"> ROOFTOPBAR </a></li>
+            <li><a class="btn-style" href=""> RESERVATIONS </a></li>
+          </ul>
+          <i class="close material-icons" onclick="closeMenu()"> close</i>
+        </nav>
+
+        <i class="hamburgermenu material-icons" onclick="openMenu()"> menu </i>
+      </div>
+    </section>
+
+    <div class="description">
+      <img
+        src="images/hero5.jpg"
+        class="description-img"
+        alt="Picture of food and cocktail"
+      />
+
+      <div class="description-textcontainer">
+        <h1>The EXPERIENCE</h1>
+        <p>
+          M E T T A S H is a two Michelin Star Contemporary Restaurant featuring
+          three separate experiences with Italian cuisine.
+
+          <i>Sustainable, Local, Ethically Sourced, gitFarm to Table </i>
+        </p>
+      </div>
+    </div>
+
+    <section id="menu">
+      <div class="menu-container">
+        <h1>MENU</h1>
+        <p>Fresh,Local,Seasonal Fare</p>
+
+        <div class="food-price-container">
+          <ul class="food-container">
+            <li class="food">MARGHERITA</li>
+            <li>Tomato Fresh Mozarella and Basil</li>
+            <br />
+
+            <li class="food">BIANCANEVE</li>
+            <li>White Pizza of Ham, Mozzarella and Parmesan</li>
+            <br />
+
+            <li class="food">MOZZARELLA CON VERDURE</li>
+
+            <li>Grilled Marinated Vegetables with Fresh Mozzarella</li>
+
+            <br />
+
+            <li class="food">BRESAOLA DELLA VALTELLINA</li>
+            <li>Air Dried Beef with Arugula and Shaved Parmigiano Cheese</li>
+
+            <br />
+
+            <li class="food">PORTOBELLO ALLA GRIGLIA</li>
+
+            <li>Fresh Mozzarella and Roasted Peppers Over Mixed Greens</li>
+
+            <br />
+
+            <li class="food">ROSEMARY FOCCACIA</li>
+            <li>
+              Flat Pizza Bread Seasoned with Rosemary, Olive Oil and Sea Salt
+            </li>
+          </ul>
+
+          <ul class="price-container">
+            <li class="first-price">15</li>
+
+            <li>12</li>
+
+            <li>18</li>
+
+            <li>20</li>
+
+            <li>10</li>
+
+            <li>15</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="bar" class="bar-section">
+      <i class="material-icons cocktail"> local_bar </i>
+
+      <p>ROOFTOP BAR</p>
+
+      <div class="bar-container">
+        <img class="bar-image" src="images/cocktail.jpg" alt="cocktail image" />
+
+        <p>
+          Featuring dramatic skyline views of the city, METTASH's contemporary
+          rooftop bar offers great ambience, two outdoor terraces and a variety
+          of handcrafted cocktails
+        </p>
+      </div>
+      <button type="text">BOOK A TABLE</button>
+    </section>
+
+    <section class="grid-section">
+      <div class="grid-container">
+        <img src="images/grid1.jpg" alt="Restaurant Image1" />
+        <img src="images/grid2.jpg" alt="Restaurant Image2" />
+        <img src="images/grid3.jpg" alt="Restaurant Image3" />
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="info1-container">
+        <ul class="info1">
+          <li>2075 Main St Greenville SC 29812</li>
+          <li>PHONE : 8036071016</li>
+          <li>EMAIL : management@mettash.com</li>
+        </ul>
+      </div>
+
+      <img src="images/logo 1.png" alt="Restaurant logo" />
+
+      <div class="info2-container">
+        <ul class="info2">
+          <li>Mon Closed</li>
+          <li>Tue-Thu 4pm-11pm</li>
+          <li>Fri 4pm-11pm</li>
+          <li>Sat, Sun 6pm-12am</li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

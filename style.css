@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.mainpage {
+  height: 100vh;
+  background-image: url("images/hero4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#160707, #15151694);
+}
+.logo {
+  max-width: 50%;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks li {
+  list-style: none;
+  padding: 2rem;
+}
+
+.navlinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.navlinks li a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+
+.navlinks .btn-style {
+  border: 0.2rem solid orange;
+  padding: 0.9rem 1.2rem;
+}
+
+.header .hamburgermenu {
+  color: white;
+  font-size: 4rem;
+  display: none;
+}
+
+.header .close {
+  color: white;
+  font-size: 4rem;
+  display: none;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("images/offwhite.jpg");
+}
+
+.description-img {
+  max-width: 50%;
+  max-height: 40rem;
+  padding: 5rem;
+  padding-right: 0px;
+}
+.description-textcontainer {
+  padding: 5rem;
+  margin-left: 1rem;
+  display: block;
+  text-align: center;
+  line-height: 2;
+}
+
+.description h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.description-textcontainer p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.menu-container {
+  background-image: url("images/minimal-background-pattern-wordpress-1.jpg");
+
+  text-align: center;
+}
+
+.menu-container h1 {
+  font-size: 4rem;
+  padding: 4rem;
+  letter-spacing: 1rem;
+}
+
+.menu-container p {
+  font-size: 3rem;
+}
+
+.food-price-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 10rem;
+  padding-top: 5rem;
+}
+
+.food-container {
+  text-align: left;
+}
+
+.food-container li {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: rgb(61, 58, 52);
+  font-style: italic;
+}
+
+.food-container .food {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  font-style: normal;
+}
+
+.price-container li {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2.4rem;
+}
+
+.price-container .first-price {
+  padding-top: 0.5rem;
+}
+
+.bar-section {
+  background-color: #0f4050;
+  text-align: center;
+  background-color: #34404f;
+}
+
+.bar-section .cocktail {
+  font-size: 5rem;
+  color: white;
+  padding: 3rem;
+}
+
+.bar-section p {
+  color: #ffeecc;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+.bar-container {
+  display: block;
+  text-align: center;
+}
+.bar-image {
+  padding: 3rem;
+  max-width: 75%;
+}
+
+.bar-container p {
+  letter-spacing: 0;
+  padding: 3rem;
+  line-height: 2;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.bar-section button {
+  border: 0.2rem solid orange;
+  padding: 1rem 1.4rem;
+  background-color: rgba(255, 255, 255, 0);
+
+  color: orange;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 30px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.grid-container img {
+  max-width: 33%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(54, 51, 51);
+
+  color: white;
+  padding: 4rem;
+}
+
+.footer img {
+  max-width: 30%;
+}
+
+.footer ul {
+  font-size: 1.5rem;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 1rem;
+  color: orange;
+  opacity: 0.8;
+  letter-spacing: 0.2rem;
+}
