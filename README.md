@@ -1,2 +1,2 @@
-# restaurant-website
-A responsive website built as part of my portfolio project
+
+A responsive restaurant website built as part of my portfolio project
